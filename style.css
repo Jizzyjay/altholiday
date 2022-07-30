@@ -6,7 +6,10 @@
 
 .main-div {
     display: flex;
-    min-width: 10px;
+    width: auto;
+    margin: 10px;
+    background: linear-gradient(90deg, #9DECE7 44.8%, #FFFFFF 100%);
+    height: 100%;
     
 }
 
@@ -23,7 +26,6 @@
     width: 500px;
     height: 850px;
     border-radius: 30px;
-    background: red;
     backdrop-filter: blur(5px);
     overflow: hidden;
     /* margin: 0 46px; */
